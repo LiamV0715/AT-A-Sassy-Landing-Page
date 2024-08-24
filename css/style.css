@@ -1,3 +1,30 @@
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.8);
+}
+
+.btn-primary {
+  background-color: #001c47;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #a2d0fc;
+  color: black;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,6 +43,25 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.hero {
+  color: white;
+  background-color: yellow;
+  margin-bottom: 20px;
+}
+.hero .box {
+  background-color: black;
+}
+.hero .box .hero-content {
+  display: inline-block;
+  width: 49%;
+  position: relative;
+  bottom: 150px;
+}
+.hero .box img {
+  display: inline-block;
+  position: relative;
 }
 
 .m-1 {
