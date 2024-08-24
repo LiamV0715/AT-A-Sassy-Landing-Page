@@ -7,6 +7,18 @@
   padding: 0;
 }
 
+.nav-buttons {
+ display: flex;
+ flex-direction: row;
+}
+
+nav {
+  display: inline-flex;
+  position: relative;
+  top: 0;
+  float: left;
+}
+
 body {
   background-color: $light-color;
   font-family: $font-stack;
@@ -25,18 +37,19 @@ a {
 .hero {
   color: white;
   background-color: yellow;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   .box {
     background-color: black;
     .hero-content{
       display: inline-block;
       width: 49%;
       position: relative;
-      bottom: 150px;
+      color: white;
     }
     img {
       display: inline-block;
       position: relative;
+      width: 49%;
     }
   }
   // Take a look at the other files we've built already. How can they be useful here?

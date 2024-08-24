@@ -31,6 +31,18 @@
   padding: 0;
 }
 
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: inline-flex;
+  position: relative;
+  top: 0;
+  float: left;
+}
+
 body {
   background-color: #FFC300;
   font-family: Trebuchet MS, Arial, sans-serif;
@@ -48,7 +60,7 @@ a {
 .hero {
   color: white;
   background-color: yellow;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .hero .box {
   background-color: black;
@@ -57,11 +69,13 @@ a {
   display: inline-block;
   width: 49%;
   position: relative;
-  bottom: 150px;
+  color: white;
 }
 .hero .box img {
-  display: inline-block;
-  position: relative;
+  display: inline;
+  position: fixed;
+  left: 80%;
+  width: 49%;
 }
 
 .m-1 {
